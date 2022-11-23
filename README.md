@@ -1,1 +1,2 @@
 # metric_error
+在使用torchmatric库的时候，使用自定义的指标时，采用实例化后的对象名进行一块调用update和compute时，update执行了两次。
